@@ -9,7 +9,8 @@ public class Demo {
 	
 	public void m1()
 	{
-		System.out.println("ok I will check");
+		System.out.println("ok I will check123455");
+		
 	}
 
 }
