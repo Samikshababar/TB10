@@ -6,5 +6,10 @@ public class Demo {
 		
 		System.out.println("This is Github");
 	}
+	
+	public void m1()
+	{
+		System.out.println("ok I will check");
+	}
 
 }
