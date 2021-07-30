@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <parameter name="A" value="xyz"/>
+  <parameter name="B" value="xyz"/>
+  <parameter name="C" value="xyz"/>
+  <parameter name="D" value="xyz"/>
+  <parameter name="E" value="xyz"/>
+  <parameter name="F" value="xyz"/>
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="com.Task.practice.Opencart">
+        <methods>
+          <include name="conclose"/>
+          <include name="cookie"/>
+          <include name="browser"/>
+          <include name="maximize"/>
+          <include name="closedriver"/>
+          <include name="url"/>
+          <include name="register" invocation-numbers="0"/>
+          <include name="deletcookie"/>
+          <include name="screenshot"/>
+        </methods>
+      </class> <!-- com.Task.practice.Opencart -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

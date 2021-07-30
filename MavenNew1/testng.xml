@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite" parallel="classes">
+  <test thread-count="5" name="Test" parallel="classes">
+    <classes>
+      <class name="com.Listners.Tasks.Jpetlogin"/>
+      <class name="com.Task.practice.AlertSample"/>
+      <class name="com.Task.practice.Opencart"/>
+      <class name="com.Listners.Tasks.AddToCartFish"/>
+      <class name="com.Listners.Tasks.MercuryLogin"/>
+      <class name="com.Listners.Tasks.AddFlight"/>
+      <class name="com.Listners.Tasks.JpetRegister"/>
+      <class name="com.Task.practice.SampleWebElement"/>
+      <class name="com.Task.practice.SampleDriver"/>
+      <class name="com.Task.practice.DragNDropSample"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

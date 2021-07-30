@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="5528" started-at="2021-07-28T14:48:35 IST" finished-at="2021-07-28T14:48:40 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="5528" started-at="2021-07-28T14:48:35 IST" finished-at="2021-07-28T14:48:40 IST">
+      <class name="com.Task.practice.SampleWebElement">
+        <test-method status="PASS" signature="openBrowser()[pri:0, instance:com.Task.practice.SampleWebElement@25af5db5]" name="openBrowser" is-config="true" duration-ms="2114" started-at="2021-07-28T14:48:33 IST" finished-at="2021-07-28T14:48:35 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method status="PASS" signature="ApplicationURL()[pri:0, instance:com.Task.practice.SampleWebElement@25af5db5]" name="ApplicationURL" is-config="true" duration-ms="1761" started-at="2021-07-28T14:48:35 IST" finished-at="2021-07-28T14:48:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ApplicationURL -->
+        <test-method status="PASS" signature="minimizeBrowser()[pri:0, instance:com.Task.practice.SampleWebElement@25af5db5]" name="minimizeBrowser" is-config="true" duration-ms="135" started-at="2021-07-28T14:48:37 IST" finished-at="2021-07-28T14:48:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- minimizeBrowser -->
+        <test-method status="PASS" signature="Book()[pri:0, instance:com.Task.practice.SampleWebElement@25af5db5]" name="Book" duration-ms="875" started-at="2021-07-28T14:48:37 IST" finished-at="2021-07-28T14:48:38 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Book -->
+        <test-method status="PASS" signature="loginData()[pri:0, instance:com.Task.practice.SampleWebElement@25af5db5]" name="loginData" duration-ms="2714" started-at="2021-07-28T14:48:38 IST" finished-at="2021-07-28T14:48:40 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginData -->
+      </class> <!-- com.Task.practice.SampleWebElement -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
