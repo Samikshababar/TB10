@@ -12,5 +12,9 @@ public class Demo {
 		System.out.println("ok I will check123455");
 		
 	}
+	public void m2()
+	{
+		System.out.println("Add new method");
+	}
 
 }
