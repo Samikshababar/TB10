@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="3895" started-at="2021-08-03T13:28:24 IST" finished-at="2021-08-03T13:28:28 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="3895" started-at="2021-08-03T13:28:24 IST" finished-at="2021-08-03T13:28:28 IST">
+      <class name="com.withLog4j.Tasks.demoShop">
+        <test-method status="PASS" signature="browser()[pri:0, instance:com.withLog4j.Tasks.demoShop@7cbd213e]" name="browser" is-config="true" duration-ms="1944" started-at="2021-08-03T13:28:22 IST" finished-at="2021-08-03T13:28:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browser -->
+        <test-method status="PASS" signature="url()[pri:0, instance:com.withLog4j.Tasks.demoShop@7cbd213e]" name="url" is-config="true" duration-ms="2120" started-at="2021-08-03T13:28:24 IST" finished-at="2021-08-03T13:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- url -->
+        <test-method status="PASS" signature="max()[pri:0, instance:com.withLog4j.Tasks.demoShop@7cbd213e]" name="max" is-config="true" duration-ms="139" started-at="2021-08-03T13:28:26 IST" finished-at="2021-08-03T13:28:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- max -->
+        <test-method status="PASS" signature="m1()[pri:1, instance:com.withLog4j.Tasks.demoShop@7cbd213e]" name="m1" duration-ms="518" started-at="2021-08-03T13:28:26 IST" finished-at="2021-08-03T13:28:27 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- m1 -->
+        <test-method status="PASS" signature="login()[pri:2, instance:com.withLog4j.Tasks.demoShop@7cbd213e]" name="login" duration-ms="1062" started-at="2021-08-03T13:28:27 IST" finished-at="2021-08-03T13:28:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="close()[pri:0, instance:com.withLog4j.Tasks.demoShop@7cbd213e]" name="close" is-config="true" duration-ms="311" started-at="2021-08-03T13:28:28 IST" finished-at="2021-08-03T13:28:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- com.withLog4j.Tasks.demoShop -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
